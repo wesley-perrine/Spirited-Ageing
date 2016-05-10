@@ -14,8 +14,10 @@ ol, ul {
 #mobilemenutoggle {
     display:none;
     text-decoration: none;
-    color: #fff;
-    font-size: 22px;    
+    color: white;
+    background-color: #5A1818;
+    font-size: 19px; 
+    height: 20px;
 }
 
 #menu {
@@ -50,6 +52,8 @@ ol, ul {
     margin-right: 20px;
     margin-top: 20px;
     float: left;
+    align-content: center;
+    padding: 0.5%;
 }
 
 #mainimage img {
@@ -60,6 +64,7 @@ ol, ul {
      float: left;
      width: 60%;
      margin-top: 20px;
+     margin-bottom: 10px;
 }
 
 #contactus{
@@ -94,14 +99,19 @@ footer{
 @media screen and (max-width: 600px) {
     #maintext {
     float: none;
+    width: 90%;
+    margin: auto;
     }
     #mainimage {
     float: none;
-    width: 100%
+    width: 60%;
+    margin: auto;
     }
     #contactus {
     float: none;
-    width: 100%;
+    width: 90%;
+    margin: auto;
+    padding: 3%;
     } 
     
     #menu {
@@ -109,6 +119,11 @@ footer{
     }
     #mobilemenutoggle{
     display: block;
+    }
+    
+    #menu ul li a {
+    display: block;
+    padding 4% 0;
     
     }
 
