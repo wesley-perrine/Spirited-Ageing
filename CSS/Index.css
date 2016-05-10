@@ -1,63 +1,88 @@
-@media screen and (max-width: 1000px){
-
+#mainbody {
+    margin: auto;
+    width: 90%;
 }
 
 ol, ul {
     list-style: none;
 }
 
-#Menu {
-    margin: 0;
-    width: 1000px;
-    font-family: sans-serif;
+#header img {
+    margin: auto;
 }
 
-#Menu li{
-    display: block;
-    width: 142px;
+#mobilemenutoggle {
+    display:none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;    
+}
+
+#menu {
+    margin: auto;
+    width: 100%;
+}
+#menu li{
+    width: 14.2%;    
+    background-color: #5A1818; 
     float: left;
-   
 }
 
-#Menu a {
+#menu li a {
     display: block;
+    float: left;
     padding: 5px;
     height: 20px;
     text-decoration: none;
     text-align: center;
+    font-family: sans-serif;
     color: white;
     font-weight: bold;
     font-size: smaller; 
-    background-color: maroon;
 }
 
-#Menu a:hover {
-    background-color: red;
+#menu a:hover {
+    background-color: maroon;
     color: gold;
 }
 
-#mainImage {
-    margin: 20px;
-    clear: both;
+#mainimage {
+    margin-right: 20px;
+    margin-top: 20px;
     float: left;
 }
 
-#mainText {
-     float: left;
-     margin-left: 30px;
-     height: 400px;
-     width: 600px;
-     margin: 20px;
+#mainimage img {
+    max-width: 100%;
 }
 
-#contactUs{
-    clear:both;
-     width: 994px;
+#maintext {
+     float: left;
+     width: 60%;
+     margin-top: 20px;
+}
+
+#contactus{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+    clear: both;
+    float: left;
+    width: 33%;
+}
+
+#contactus p {
+        
+ }
+
+#contactus p span {
+    font-weight: bold;
 }
 
 footer{
-    background-color: maroon;
-    width: 994px;
+    clear:both;
+    background-color: #5A1818;
+    width: 100%;
     color: white;
     font-family: sans-serif;
     font-size: small;
@@ -65,6 +90,30 @@ footer{
     padding: 10px;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 600px) {
+    #maintext {
+    float: none;
+    }
+    #mainimage {
+    float: none;
+    width: 100%
+    }
+    #contactus {
+    float: none;
+    width: 100%;
+    } 
+    
+    #menu {
+    display: none;
+    }
+    #mobilemenutoggle{
+    display: block;
+    
+    }
+
+}
+
 
 
 

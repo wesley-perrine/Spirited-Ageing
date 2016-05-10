@@ -9,15 +9,24 @@
     <meta name="description" content="Spirited Ageing provides wine cellar design and consulting services and sells custom wine racks and cooling systems for homes, restaurants and wine shops in Atlanta and Jacksonville areas.">
     <link href="CSS/reset-meyer.css" rel="StyleSheet" type="text/css">
     <link href="CSS/Index.css" rel="stylesheet" type="text/css">
-
+    <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+    <script type="text/javascript">
+     $ (document).ready(function(){
+        $("#mobilemenutoggle").click(function() {
+        $("nav ul").toggle();
+        return false;
+        });
+     });  
+    </script>
 </head>
 
-<body id="MainBody">
+<body id="mainbody">
     <header>
         <img src="Images/LogoText2.jpg" alt="Logo">
     </header>
-    <nav id=Menu>
-        <ol>
+    <nav>
+        <a href="#" id="mobilemenutoggle">#9776;<span>Menu</span></a>
+        <ul id="menu">
             <li><a href="index.html">Custom Wine Racks</a></li>
             <li><a href="winerackoptions.html">Wine Rack Options</a> </li>
             <li><a href="winecellarcooling.html"> Wine Cellar Cooling</a> </li>
@@ -25,30 +34,24 @@
             <li><a href="designideas.html"> Design Ideas</a></li>
             <li><a href="aboutus.html">About Us</a></li>
             <li><a href="contactus.html">Contact Us</a> </li>
-        </ol>
+        </ul>
     </nav>    
-      <div id=mainImage>
+      <div id=mainimage>
         <img src="Images/wenger%20niche%20small.jpg" alt="Custom Wine Rack">
     </div> 
     
-    <div id=mainText><h2>Custom Wine Racks</h2>
-        <p>Spirited Ageing LLC sells custom wine racks and wine cellar cooling systems for both residential and commercial applications. Our custom wine racks have been installed in homes, restaurants and wine retail establishments. Spirited Ageing LLC also provides wine cellar design and consulting services. Our premium quality wine racks are custom made from Clear All-Heart Redwood which provides a more consistent color and wood grain appearance than you will find with the typical manufacturer's Redwood.</p>
+    <div id=maintext><h2>Custom Wine Racks</h2><br>
+        <p>Spirited Ageing LLC sells custom wine racks and wine cellar cooling systems for both residential and commercial applications. Our custom wine racks have been installed in homes, restaurants and wine retail establishments. Spirited Ageing LLC also provides wine cellar design and consulting services. Our premium quality wine racks are custom made from Clear All-Heart Redwood which provides a more consistent color and wood grain appearance than you will find with the typical manufacturer's Redwood.</p><br>
 
-        <p>We have the flexibility to work with your homebuilder or contactor for build-out of the wine cellar and rack installation, or we can recommend a contractor.</p>
+        <p>We have the flexibility to work with your homebuilder or contactor for build-out of the wine cellar and rack installation, or we can recommend a contractor.</p><br>
 
-        <p>Whether you are including a wine cellar in a new construction project, or wanting to convert an existing space in your home or business, we have the design and production capabilities to provide you with the wine cellar of your dreams. We offer custom fit wine racks and case storage systems, as well as a wide variety of custom cabinets and arches. We will design your cellar to fulfill both your storage needs as well as provide you with those special features to enhance the "WOW" factor of your cellar. Our goal is to create a custom wine cellar for you which is both functional and attractive.</p>
+        <p>Whether you are including a wine cellar in a new construction project, or wanting to convert an existing space in your home or business, we have the design and production capabilities to provide you with the wine cellar of your dreams. We offer custom fit wine racks and case storage systems, as well as a wide variety of custom cabinets and arches. We will design your cellar to fulfill both your storage needs as well as provide you with those special features to enhance the "WOW" factor of your cellar. Our goal is to create a custom wine cellar for you which is both functional and attractive.</p><br>
 
         <p>Spirited Ageing LLC currently serves the Jacksonville, Florida area.</p>
         </div>
-     <div id=contactUs>
-        <h2>Contact Us</h2>
-        <p>Sprited Ageing LLC
-            <br> Ponte Vedra Beach, Florida
-            <br>
-        </p>
-        <p>Barb Wenger
-            <br> Phone: (904)273-0657
-            <br> Email: <a href="mailto:barbwenger@gmail.com">barbwenger@gmail.com</a>
+     <div id=contactus>
+        <p><span>Contact Us</span><br>Sprited Ageing LLC<br> Ponte Vedra Beach, Florida<br>
+        Barb Wenger<br> Phone: (904)273-0657<br> Email: <a href="mailto:barbwenger@gmail.com">barbwenger@gmail.com</a>
         </p>
     </div>
     <div>
