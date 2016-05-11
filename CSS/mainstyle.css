@@ -23,18 +23,21 @@ ol, ul {
 #menu {
     margin: auto;
     width: 100%;
+    
+    
 }
 #menu li{
     width: 14.2%;    
     background-color: #5A1818; 
-    float: left;
+    float: left; 
 }
 
 #menu li a {
     display: block;
     float: left;
-    padding: 5px;
-    height: 20px;
+    padding: 5px 5px;
+    margin-left: 2px;
+    height: 22px;
     text-decoration: none;
     text-align: center;
     font-family: sans-serif;
@@ -44,8 +47,8 @@ ol, ul {
 }
 
 #menu a:hover {
-    background-color: maroon;
-    color: gold;
+    background-color:#310808;
+    color: #ded79c;
 }
 
 #mainimage {
@@ -118,6 +121,10 @@ footer{
     #menu ul li a {
     display: block;
     padding 4% 0;    
+    }
+    #menu li a {
+    font-size: 12px;
+    height: 31px;
     }
 }
 
