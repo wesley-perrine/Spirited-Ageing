@@ -99,6 +99,59 @@ ol, ul {
     font-weight: bold;
 }
 
+#winecellarcooling {
+    display: block;
+    clear: both;
+}
+
+#splitcoolingimage {
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 300px;
+    float: left;
+    align-content: center;
+    padding: 0.5%;
+}
+
+#splitcoolingimage img {
+    max-width: 100%;
+}
+
+#splitcooling {
+    float: left;
+    width: 50%;    
+}
+
+#splitcooling span {
+    font-weight: bold;
+    text-decoration:underline;
+}
+    
+#clear {
+    clear:both;
+}
+
+#thruwallimage {
+    margin-right: 20px;
+    float: left;
+    width: 300px;
+    align-content: center;
+    padding: 0.5%;
+}
+
+#thruwallimage img {
+    max-width: 100%;
+}
+
+#thruwall {
+    float: left;
+    width: 50%;    
+}
+
+#thruwall span {
+    font-weight: bold;
+    text-decoration:underline;
+}
 #contactus{
     margin-top: 20px;
     margin-bottom: 10px;
@@ -158,8 +211,26 @@ footer{
     #listofoptions {
     float: none;
     margin: auto;
-    width: 90%
+    width: 90%;
     }
+    #splitcoolingimage{
+    margin: auto;
+    float: none;
+    }
+    #splitcooling {
+    margin: auto;
+    float: none;
+    width: 90%;
+    }
+    #thruwallimage {
+    margin: auto;
+    float: none;
+    }
+    #thruwall {
+    margin: auto;
+    float: none;
+    width: 90%;
+    }    
     #menu {
     display: none;
     }
