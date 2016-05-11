@@ -17,7 +17,8 @@ ol, ul {
     color: white;
     background-color: #5A1818;
     font-size: 19px; 
-    height: 20px;
+    height: 23px;
+    padding: 2px;
 }
 
 #menu {
@@ -42,8 +43,8 @@ ol, ul {
     text-align: center;
     font-family: sans-serif;
     color: white;
-    font-weight: bold;
-    font-size: smaller; 
+    font-size: small; 
+    margin-top: 5px;
 }
 
 #menu a:hover {
@@ -63,11 +64,39 @@ ol, ul {
     max-width: 100%;
 }
 
+#mainimageoptions {
+    margin-right: 20px;
+    margin-top: 10px;
+    float: left;
+    align-content: center;
+    padding: 0.5%;
+}
+
+#mainimageoptions img {
+    max-width: 100%;
+}
+
 #maintext {
      float: left;
      width: 60%;
      margin-top: 20px;
      margin-bottom: 10px;
+}
+
+#winerackoptions {
+    display: block;
+    clear: both;
+    width: 90%;
+    margin-top: 20px;
+}
+
+#listofoptions {
+    float: left;
+    width: 50%
+}
+
+#listofoptions p span {
+    font-weight: bold;
 }
 
 #contactus{
@@ -95,6 +124,12 @@ footer{
     margin-top: 20px;
 }
 
+@media screen and (max-width: 678px) {
+     #menu li a {
+     font-size: 11px;
+     }
+}
+
 @media screen and (max-width: 600px) {
     #maintext {
     float: none;
@@ -111,7 +146,20 @@ footer{
     width: 90%;
     margin: auto;
     padding: 3%;
-    }     
+    }  
+    #winerackoptions {
+    margin: auto;
+    }
+    #mainimageoptions {
+    float: none;
+    margin: auto;
+    width: 90%
+    }
+    #listofoptions {
+    float: none;
+    margin: auto;
+    width: 90%
+    }
     #menu {
     display: none;
     }
