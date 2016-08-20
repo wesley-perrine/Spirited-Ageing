@@ -1,3 +1,0 @@
-Portfolio Project for Barb Wenger Spirited Ageing LLC
-
-Replicate current site in HTML/CSS and make it a more responsive website
