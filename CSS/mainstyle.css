@@ -1,6 +1,4 @@
-#mainbody {
-    margin: auto;
-    width: 90%;
+body {
 }
 
 ol,
@@ -8,8 +6,9 @@ ul {
     list-style: none;
 }
 
-#header img {
-    margin: auto;
+.logocontainer {
+    margin: 0.5% ;
+    width: 90%;
 }
 
 #mobilemenutoggle {
@@ -19,80 +18,73 @@ ul {
     background-color: #5A1818;
     font-size: 19px;
     height: 23px;
-    padding: 2px;
+    width: 99%;
+    margin: 3% auto;
 }
 
 #menu {
-    margin: auto;
-    width: 100%;
+    margin: 1% auto;
+    width: 99%;
 }
 
 #menu li {
-    width: 14.2%;
-    background-color: #5A1818;
-    float: left;
+    display: block;
+    width: 14.285%;
+    float: left;    
 }
 
-#menu li a {
+#menu a{
     display: block;
-    float: left;
-    padding: 5px 5px;
-    margin-left: 2px;
-    height: 22px;
-    text-decoration: none;
-    text-align: center;
-    font-family: sans-serif;
     color: white;
-    font-size: small;
-    margin-top: 5px;
+    text-decoration: none;
+    padding: 0.5%;
+    text-align: center;
+    background-color: #5A1818;
 }
 
 #menu a:hover {
-    background-color: #310808;
+    background-color: maroon;
     color: #ded79c;
+}
+img {
+    max-width: 100%;
+}
+
+.maintext {
+   width: 99%;
+   margin: 1% auto;
 }
 
 #mainimage {
-    margin-right: 20px;
-    margin-top: 20px;
     float: left;
-    align-content: center;
-    padding: 0.5%;
+    width: 20%;
+    margin: 1% auto;
 }
 
-#mainimage img {
-    max-width: 100%;
-}
-
-#mainimageoptions {
-    margin-right: 20px;
-    margin-top: 10px;
-    float: left;
-    align-content: center;
-    padding: 0.5%;
-}
-
-#mainimageoptions img {
-    max-width: 100%;
-}
-
-#maintext {
-    float: left;
-    width: 60%;
-    margin-top: 20px;
-    margin-bottom: 10px;
+#wineracks {
+    float: right;
+    width: 80%;
+    margin: 1% auto;
 }
 
 #winerackoptions {
-    display: block;
-    clear: both;
-    width: 90%;
-    margin-top: 20px;
+    clear:both;
+    width: 99%;
+    margin: 1% auto;
 }
 
-#listofoptions {
+#mainimageoptions {
+    margin: 1% auto;
     float: left;
-    width: 50%
+    align-content: center;
+    padding: 0.5%;
+    width: 33%;
+}
+
+
+#listofoptions {
+    float:right;
+    width: 65%
 }
 
 #listofoptions p span {
@@ -100,66 +92,67 @@ ul {
 }
 
 #winecellarcooling {
-    display: block;
+    margin: 1% auto;
     clear: both;
+    text-align: center;
+    font-size: 25px;
 }
 
 #splitcoolingimage {
-    margin-right: 20px;
-    margin-top: 10px;
-    width: 300px;
+    margin: 1% auto;
+    width: 15%;
     float: left;
     align-content: center;
     padding: 0.5%;
-}
-
-#splitcoolingimage img {
-    max-width: 100%;
 }
 
 #splitcooling {
     float: left;
     width: 50%;
+    margin: 1% auto;
 }
 
 #splitcooling span {
     font-weight: bold;
     text-decoration: underline;
+    color: #5A1818;
 }
 
-#clear {
-    clear: both;
-}
 
 #thruwallimage {
-    margin-right: 20px;
+    margin: 1% auto;
+    width: 15%;
     float: left;
-    width: 300px;
     align-content: center;
     padding: 0.5%;
-}
-
-#thruwallimage img {
-    max-width: 100%;
 }
 
 #thruwall {
     float: left;
     width: 50%;
+    margin: 1% auto;
 }
 
 #thruwall span {
     font-weight: bold;
     text-decoration: underline;
+    color: #5A1818;
 }
 
-#contactus {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    display: block;
-    clear: both;
-    float: left;
-    width: 33%;
+.uppertext{
+    clear:both;
+    width: 99%;
+    margin: 1% auto;
+}
+
+.lowertext {
+    clear:both;
+    width: 99%;
+    margin: 1% auto;
+}
+
+#contactus{
+  margin: 1% auto;
 }
 
 #contactus p span {
@@ -169,53 +162,45 @@ ul {
 footer {
     clear: both;
     background-color: #5A1818;
-    width: 100%;
+    width: 99%;
+    padding: 0.3%;
     color: white;
-    font-family: sans-serif;
-    font-size: small;
     text-align: center;
-    padding: 10px;
-    margin-top: 20px;
+    margin: 1% auto;
 }
 
 @media screen and (max-width: 678px) {
-    #menu li a {
-        font-size: 11px;
-    }
-}
-
-@media screen and (max-width: 600px) {
     #maintext {
         float: none;
         width: 90%;
-        margin: auto;
+        margin: 1% auto;
     }
     #mainimage {
         float: none;
         width: 60%;
-        margin: auto;
+         margin: 1% auto;
     }
     #contactus {
         float: none;
         width: 90%;
-        margin: auto;
+         margin: 1% auto;
         padding: 3%;
     }
     #winerackoptions {
-        margin: auto;
+        margin: 1% auto;
     }
     #mainimageoptions {
         float: none;
-        margin: auto;
+        margin: 1% auto;
         width: 90%
     }
     #listofoptions {
         float: none;
-        margin: auto;
+        margin: 1% auto;
         width: 90%;
     }
     #splitcoolingimage {
-        margin: auto;
+        margin: 1% auto;
         float: none;
     }
     #splitcooling {
@@ -224,27 +209,28 @@ footer {
         width: 90%;
     }
     #thruwallimage {
-        margin: auto;
+        margin: 1% auto;
         float: none;
     }
     #thruwall {
-        margin: auto;
+        margin: 1% auto;
         float: none;
         width: 90%;
     }
+}
+
+@media screen and (max-width: 600px) {
+   
     #menu {
         display: none;
     }
     #mobilemenutoggle {
         display: block;
     }
-    #menu ul li a {
-        display: block;
-        padding 4% 0;
-    }
-    #menu li a {
+     #menu li {
+        float: none;
         font-size: 12px;
-        height: 31px;
+        width: 35%;
     }
 }
 
