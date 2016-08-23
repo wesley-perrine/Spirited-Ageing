@@ -52,7 +52,7 @@ img {
 
 .maintext {
    width: 99%;
-   margin: 1% auto;
+   margin: 2% auto;
 }
 
 #mainimage {
@@ -157,7 +157,28 @@ img {
 
 #contactus p span {
     font-weight: bold;
+    
 }
+
+#info{
+    clear: both;
+    width: 70%;
+    margin: 2%;   
+}
+
+#info h1 {
+    font-size: larger;
+    color: darkred;
+}
+
+#info span {
+    font-weight: bold;
+}
+
+#info ul{
+    list-style: disc;
+}
+
 
 footer {
     clear: both;
@@ -213,6 +234,12 @@ footer {
         float: none;
     }
     #thruwall {
+        margin: 1% auto;
+        float: none;
+        width: 90%;
+    }
+    
+    #info {
         margin: 1% auto;
         float: none;
         width: 90%;
