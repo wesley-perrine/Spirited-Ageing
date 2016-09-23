@@ -46,6 +46,7 @@ ul {
     background-color: maroon;
     color: #ded79c;
 }
+
 img {
     max-width: 100%;
 }
@@ -177,6 +178,25 @@ img {
 
 #info ul{
     list-style: disc;
+}
+
+#slideshow {
+    clear:both;
+    width: 300px;
+    height: 500px;
+    margin: 1% auto;
+}
+
+#slideshow h1 {
+    font-size: larger;
+    color: darkred;
+}
+
+#slideshow img {
+    max-width:100%; 
+    max-height:100%;
+    margin:auto;
+    display:block;
 }
 
 
