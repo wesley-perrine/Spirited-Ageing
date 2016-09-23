@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>About Us</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="keywords" content="custom wine racks in Jacksonville and Atlanta">
+    <meta name="description" content="Spirited Ageing provides wine cellar design and consulting services and sells custom wine racks and cooling systems for homes, restaurants and wine shops in Atlanta and Jacksonville areas.">
+    <link href="CSS/reset-meyer.css" rel="StyleSheet" type="text/css">
+    <link href="CSS/mainstyle.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#mobilemenutoggle").click(function () {
+                $("nav ul").toggle();
+                return false;
+            });
+            
+        $("#slideshow > div:gt(0)").hide();
+
+        setInterval(function() { 
+          $('#slideshow > div:first')
+            .fadeOut(1000)
+            .next()
+            .fadeIn(1000)
+            .end()
+            .appendTo('#slideshow');
+        },  5000);
+});
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class='logocontainer'>
+        <img src="Images/LogoText2.jpg" alt="Logo">
+        </div>
+    <nav>
+        <a href="#" id="mobilemenutoggle">&#9776;<span>Menu</span></a>
+        <ul id="menu">
+            <li><a href="index.html">Custom Wine Racks</a></li>
+            <li><a href="winerackoptions.html">Wine Rack Options</a> </li>
+            <li><a href="winecellarcooling.html"> Wine Cellar Cooling</a> </li>
+            <li><a href="projectgallery.html"> Project Gallery</a></li>
+            <li><a href="designideas.html"> Design Ideas</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contactus.html">Contact Us</a> </li>
+        </ul>
+    </nav>
+    </header>
+    <div></div>
+    
+    <div id='slideshow' >
+        <h1>Project Gallery</h1>
+        <div><img src='SlideImages/000_wine-room.jpg'> </div>
+        <div><img src="SlideImages/aitken%20back%20room%20after%20one%20year.jpg"></div>
+        <div><img src='SlideImages/aitken%20decanting%20niche.jpg'></div>
+        <div><img src='SlideImages/chandler%20wine%20closet.jpg'></div>
+        <div><img src='SlideImages/dscf4437.jpg'></div>
+        <div><img src='SlideImages/dscf4441.jpg'></div>
+        <div><img src='SlideImages/dscf4446.jpg'></div>
+        <div><img src="SlideImages/dscf4448.jpg"></div>
+        <div><img src='SlideImages/dscf4450.jpg'></div>
+        <div><img src='SlideImages/dscf4469.jpg'></div>
+        <div><img src='SlideImages/fiala%20cellar%20end.jpg'></div>
+        <div><img src='SlideImages/fiala%20under%20staircase%2011.jpg'></div>
+        <div><img src='SlideImages/half%20niche%20and%20back%20of%20cellar.jpg'></div>
+        <div><img src='SlideImages/niche%20showing%20bottles%20on%20side.jpg'></div>
+        <div><img src='SlideImages/niche%20with%20stemrack.jpg'></div>
+        <div><img src='SlideImages/pa200027.jpg'></div>
+        <div><img src='SlideImages/pa200031.jpg'></div>
+        <div><img src='SlideImages/pc070031.jpg'></div>
+        <div><img src='SlideImages/pc070038.jpg'></div>
+        <div><img src='SlideImages/pettibone%20wine%20closet.jpg'></div>
+        <div><img src='SlideImages/phelpsniche2.jpg'></div>
+        <div><img src='SlideImages/phelpswall4.jpg'></div>
+        <div><img src='SlideImages/rackley%20main%20wall.jpg'></div>
+        <div><img src='SlideImages/tasting%20room%20restaurant.jpg'></div>
+        <div><img src='SlideImages/wenger%20niche%20small.jpg'></div>
+        <div><img src='SlideImages/wine%20%20cellar.jpg'></div>
+        <div><img src='SlideImages/wine%20cellar%20under%20circular%20staircase.jpg'></div>
+        <div><img src='SlideImages/wine%20room%20highlights%20a%20dining%20room%20wall.jpg'></div>
+        <div><img src='SlideImages/winecllr%20babcock.jpg'></div>
+                
+    </div>
+           
+   <footer>
+        &copy; 2016 Spirited Ageing LLC Website 
+    </footer>
+    
+    </body>   
+    

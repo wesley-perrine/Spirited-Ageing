@@ -1,0 +1,286 @@
+body {
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.logocontainer {
+    margin: 0.5% ;
+    width: 90%;
+}
+
+#mobilemenutoggle {
+    display: none;
+    text-decoration: none;
+    color: white;
+    background-color: #5A1818;
+    font-size: 19px;
+    height: 23px;
+    width: 99%;
+    margin: 3% auto;
+}
+
+#menu {
+    margin: 1% auto;
+    width: 99%;
+}
+
+#menu li {
+    display: block;
+    width: 14.285%;
+    float: left;    
+}
+
+#menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0.5%;
+    text-align: center;
+    background-color: #5A1818;
+}
+
+#menu a:hover {
+    background-color: maroon;
+    color: #ded79c;
+}
+
+img {
+    max-width: 100%;
+}
+
+.maintext {
+   width: 99%;
+   margin: 2% auto;
+}
+
+#mainimage {
+    float: left;
+    width: 20%;
+    margin: 1% auto;
+}
+
+#wineracks {
+    float: right;
+    width: 80%;
+    margin: 1% auto;
+}
+
+#winerackoptions {
+    clear:both;
+    width: 99%;
+    margin: 1% auto;
+}
+
+#mainimageoptions {
+    margin: 1% auto;
+    float: left;
+    align-content: center;
+    padding: 0.5%;
+    width: 33%;
+}
+
+
+#listofoptions {
+    float:right;
+    width: 65%
+}
+
+#listofoptions p span {
+    font-weight: bold;
+}
+
+#winecellarcooling {
+    margin: 1% auto;
+    clear: both;
+    text-align: center;
+    font-size: 25px;
+}
+
+#splitcoolingimage {
+    margin: 1% auto;
+    width: 15%;
+    float: left;
+    align-content: center;
+    padding: 0.5%;
+}
+
+#splitcooling {
+    float: left;
+    width: 50%;
+    margin: 1% auto;
+}
+
+#splitcooling span {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #5A1818;
+}
+
+
+#thruwallimage {
+    margin: 1% auto;
+    width: 15%;
+    float: left;
+    align-content: center;
+    padding: 0.5%;
+}
+
+#thruwall {
+    float: left;
+    width: 50%;
+    margin: 1% auto;
+}
+
+#thruwall span {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #5A1818;
+}
+
+.uppertext{
+    clear:both;
+    width: 99%;
+    margin: 1% auto;
+}
+
+.lowertext {
+    clear:both;
+    width: 99%;
+    margin: 1% auto;
+}
+
+#contactus{
+  margin: 1% auto;
+}
+
+#contactus p span {
+    font-weight: bold;
+    
+}
+
+#info{
+    clear: both;
+    width: 70%;
+    margin: 2%;   
+}
+
+#info h1 {
+    font-size: larger;
+    color: darkred;
+}
+
+#info span {
+    font-weight: bold;
+}
+
+#info ul{
+    list-style: disc;
+}
+
+#slideshow {
+    clear:both;
+    width: 300px;
+    height: 500px;
+    margin: 1% auto;
+}
+
+#slideshow h1 {
+    font-size: larger;
+    color: darkred;
+}
+
+#slideshow img {
+    max-width:100%; 
+    max-height:100%;
+    margin:auto;
+    display:block;
+}
+
+
+footer {
+    clear: both;
+    background-color: #5A1818;
+    width: 99%;
+    padding: 0.3%;
+    color: white;
+    text-align: center;
+    margin: 1% auto;
+}
+
+@media screen and (max-width: 678px) {
+    #maintext {
+        float: none;
+        width: 90%;
+        margin: 1% auto;
+    }
+    #mainimage {
+        float: none;
+        width: 60%;
+         margin: 1% auto;
+    }
+    #contactus {
+        float: none;
+        width: 90%;
+         margin: 1% auto;
+        padding: 3%;
+    }
+    #winerackoptions {
+        margin: 1% auto;
+    }
+    #mainimageoptions {
+        float: none;
+        margin: 1% auto;
+        width: 90%
+    }
+    #listofoptions {
+        float: none;
+        margin: 1% auto;
+        width: 90%;
+    }
+    #splitcoolingimage {
+        margin: 1% auto;
+        float: none;
+    }
+    #splitcooling {
+        margin: auto;
+        float: none;
+        width: 90%;
+    }
+    #thruwallimage {
+        margin: 1% auto;
+        float: none;
+    }
+    #thruwall {
+        margin: 1% auto;
+        float: none;
+        width: 90%;
+    }
+    
+    #info {
+        margin: 1% auto;
+        float: none;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+   
+    #menu {
+        display: none;
+    }
+    #mobilemenutoggle {
+        display: block;
+    }
+     #menu li {
+        float: none;
+        font-size: 12px;
+        width: 35%;
+    }
+}
+
+
+
+
